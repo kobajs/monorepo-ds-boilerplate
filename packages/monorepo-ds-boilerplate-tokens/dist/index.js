@@ -20,9 +20,18 @@ var spacing = {
   large: 24
 };
 
+var shape = {
+  borderRadius: {
+    small: 4,
+    medium: 8,
+    large: 12
+  }
+};
+
 var designTokens = {
   palette: palette,
-  spacing: spacing
+  spacing: spacing,
+  shape: shape
 };
 
 export default designTokens;

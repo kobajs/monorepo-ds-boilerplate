@@ -38,7 +38,7 @@ var StyledButton = styled.button(function (_a) {
   var theme = _a.theme,
       size = _a.size,
       color = _a.color;
-  return css(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n    padding: ", "px;\n    color: ", ";\n    background-color: ", ";\n  "], ["\n    padding: ", "px;\n    color: ", ";\n    background-color: ", ";\n  "])), theme.spacing[size], theme.palette.common.white, theme.palette[color].main);
+  return css(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n    padding: ", "px;\n    color: ", ";\n    background-color: ", ";\n    border-radius: ", "px;\n  "], ["\n    padding: ", "px;\n    color: ", ";\n    background-color: ", ";\n    border-radius: ", "px;\n  "])), theme.spacing[size], theme.palette.common.white, theme.palette[color].main, theme.shape.borderRadius.medium);
 });
 var templateObject_1;
 
