@@ -1,0 +1,26 @@
+{
+  "name": "monorepo-ds-boilerplate-components",
+  "version": "0.0.0",
+  "description": "Monorepo Design System Components",
+  "author": "Yuri Tavares Kobashigawa <kobashigawa.dev@gmail.com>",
+  "homepage": "https://github.com/kobajs/monorepo-ds-boilerplate#readme",
+  "license": "ISC",
+  "main": "src/index.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kobajs/monorepo-ds-boilerplate.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/kobajs/monorepo-ds-boilerplate/issues"
+  }
+}

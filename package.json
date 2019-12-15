@@ -1,0 +1,16 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "lerna": "^3.19.0",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.3"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
