@@ -8,10 +8,12 @@ type ButtonProps = {
 }
 
 const Button: React.FC<ButtonProps> = props => {
-  const { children, color, backgroundColor } = props
+  const { children, backgroundColor } = props
+
   const buttonStyle = {
-    color: Tokens.palette.text[color],
-    backgroundColor: Tokens.palette.primary[backgroundColor]
+    color: Tokens.palette.common.white,
+    backgroundColor: Tokens.palette.primary[backgroundColor],
+    padding: Tokens.spacing.small,
   }
   
   return <button style={buttonStyle}>{children}</button>
@@ -19,7 +21,7 @@ const Button: React.FC<ButtonProps> = props => {
 
 Button.defaultProps = {
   color: "primary",
-  backgroundColor: "primary",
+  backgroundColor: "main",
 }
 
 export { Button }

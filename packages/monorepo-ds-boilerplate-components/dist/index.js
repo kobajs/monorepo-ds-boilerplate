@@ -4,12 +4,12 @@ import Tokens from 'monorepo-ds-boilerplate-tokens';
 const Button = props => {
   const {
     children,
-    color,
     backgroundColor
   } = props;
   const buttonStyle = {
-    color: Tokens.palette.text[color],
-    backgroundColor: Tokens.palette.primary[backgroundColor]
+    color: Tokens.palette.common.white,
+    backgroundColor: Tokens.palette.primary[backgroundColor],
+    padding: Tokens.spacing.small
   };
   return React.createElement("button", {
     style: buttonStyle
@@ -18,7 +18,7 @@ const Button = props => {
 
 Button.defaultProps = {
   color: "primary",
-  backgroundColor: "primary"
+  backgroundColor: "main"
 };
 
 export { Button };

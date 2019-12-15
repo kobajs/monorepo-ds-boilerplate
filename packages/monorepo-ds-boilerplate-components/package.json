@@ -22,6 +22,8 @@
     "url": "https://github.com/kobajs/monorepo-ds-boilerplate/issues"
   },
   "dependencies": {
-    "monorepo-ds-boilerplate-tokens": "^0.0.0"
+    "@types/styled-components": "^4.4.1",
+    "monorepo-ds-boilerplate-tokens": "^0.0.0",
+    "styled-components": "^4.4.1"
   }
 }
