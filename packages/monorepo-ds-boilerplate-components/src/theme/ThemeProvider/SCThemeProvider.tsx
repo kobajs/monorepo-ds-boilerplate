@@ -1,7 +1,8 @@
 import React from 'react'
 import { ThemeProvider } from 'styled-components'
 
-import defaultTheme, { ITheme } from '../themes/defaultTheme'
+import { defaultTheme } from '../themes'
+import { ITheme } from '../ITheme'
 
 type SCThemeProviderProps = {
   theme: ITheme
