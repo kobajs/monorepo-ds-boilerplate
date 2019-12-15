@@ -10,7 +10,5 @@
     "noEmit": true,
     "allowSyntheticDefaultImports": true
   },
-  "exclude": [
-    "dist",
-  ]
+  "exclude": ["dist"]
 }
