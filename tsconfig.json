@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    // Target latest version of ECMAScript.
+    "target": "ESNext",
+    // Search under node_modules for non-relative imports.
+    "moduleResolution": "node",
+    "jsx": "react",
+    // Don't emit; allow Babel to transform files.
+    "noEmit": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "exclude": [
+    "dist",
+  ]
+}

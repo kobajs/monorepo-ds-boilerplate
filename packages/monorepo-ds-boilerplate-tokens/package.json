@@ -5,20 +5,22 @@
   "author": "Yuri Tavares Kobashigawa <kobashigawa.dev@gmail.com>",
   "homepage": "https://github.com/kobajs/monorepo-ds-boilerplate#readme",
   "license": "ISC",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
   "directories": {
-    "lib": "lib",
-    "test": "__tests__"
+    "dist": "dist",
+    "src": "src"
   },
   "files": [
-    "lib"
+    "dist"
   ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kobajs/monorepo-ds-boilerplate.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "compile": "rollup -c",
+    "compile:watch": "rollup -c -w",
+    "docs:dev": "npm run compile:watch"
   },
   "bugs": {
     "url": "https://github.com/kobajs/monorepo-ds-boilerplate/issues"
